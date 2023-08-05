@@ -81,7 +81,7 @@ def ADMINLOGIN(request):
 
     return render(request, 'adminlogin.html')  
        
-    
+print("hi") 
     
 @cache_control(no_cache=True, must_revalidate=True, no_store=True)
 @never_cache 

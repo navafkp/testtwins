@@ -1,0 +1,74 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin:0%;
+    padding: 0%;
+}
+
+main{
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Inter',Helvetica,Arial,Lucida,sans-serif;
+}
+
+
+.abc{
+    /* background-image: url("images/travel_home.jpg"); */
+    background-color: rgb(253, 254, 255);
+    color: rgb(24, 9, 9);
+    height: max-content;
+    width : max-content
+   
+ 
+}
+
+.customclass{
+    
+    justify-content: flex-end;
+}
+    
+
+
+
+.mainsec{
+    
+
+    background-image: url("../images/back_reg.jpg");
+    background-repeat: no-repeat;
+    max-width: max-content;
+    max-height: fit-content;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main_text {
+    font-size: medium;
+    font-family: fangsong;
+    font-size: x-large;
+    font-weight: 700;
+    color: darkslategrey;
+}
+
+.log_in_mainsec{
+    background-image: url("../images/back_red1.jpg");
+    background-repeat: no-repeat;
+    max-width: max-content;
+    max-height: fit-content;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+nav.navbar{
+    background-color: #034250!important;
+}
+
